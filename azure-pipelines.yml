@@ -8,6 +8,8 @@ trigger:
 
 pool:
   vmImage: "vs2017-win2016"
+steps:
+  - script: echo hello from Windows
 
 steps:
 - task: Maven@3
