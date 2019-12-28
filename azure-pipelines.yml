@@ -12,8 +12,6 @@ pool:
 
 
 steps:
-  - script: echo hello from Windows
-  
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
